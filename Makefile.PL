@@ -1,6 +1,14 @@
 use strict;
 use warnings;
 use ExtUtils::MakeMaker;
+use inc::ExtUtils::MY_Metafile qw(my_metafile);
+
+my_metafile {
+  no_index => {
+    directory => [ qw(inc t), ],
+  },
+  license  => 'perl',
+};
 
 WriteMakefile(
     NAME                => 'String::CamelCase',

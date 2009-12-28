@@ -12,7 +12,7 @@ package String::CamelCase;
 use warnings;
 use strict;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use base qw(Exporter);
 our @EXPORT_OK = qw(camelize decamelize wordsplit);
@@ -120,9 +120,9 @@ L<http://search.cpan.org/dist/String-CamelCase>
 
 =head1 SEE ALSO
 
-L<CamelCase(en.wikipedia.org)|http://en.wikipedia.org/wiki/CamelCase>
+CamelCase(en.wikipedia.org) L<http://en.wikipedia.org/wiki/CamelCase>
 
-L<CamelCase(ja.wikipedia.org)|http://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%A3%E3%83%A1%E3%83%AB%E3%82%B1%E3%83%BC%E3%82%B9>
+CamelCase(ja.wikipedia.org) L<http://ja.wikipedia.org/wiki/%E3%82%AD%E3%83%A3%E3%83%A1%E3%83%AB%E3%82%B1%E3%83%BC%E3%82%B9>
 
 =head1 COPYRIGHT & LICENSE
 
